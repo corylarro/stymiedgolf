@@ -1,0 +1,36 @@
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-color: #305f72;
+    color: #f18c8e;
+}
+
+.navbar{
+    background-color: #568ea6;
+    color:white;
+}
+
+li{
+    padding-left: 30px;
+    padding-right: 30px
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    font-weight:bold;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+body{
+    
+}
+
+h3{
+    color:#f18c8e;
+    text-align: center;
+    font-weight: bold;
+}
