@@ -15,27 +15,43 @@
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+        <script src="https://use.fontawesome.com/bdcd0a7421.js"></script>
+        
     </head>
 
     <body>
-        <header class="jumbotron">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <h1>Stymied Golf: Connecting Golfers &amp; Growing the Game</h1>
+    
+        <!--Jumbotron-->
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h1>Stymied Golf: Connecting Golfers &amp; Growing the Game</h1>
+                </div>
+                <div class="col-sm-4 mt-2">
+                    <a href="https://apps.apple.com/us/app/stymied-golf/id1576273740?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1626393600&h=4d80cc6c3d0ad0dc7c3cd90d90134955" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
                 </div>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <nav class="navbar navbar-fluid navbar-expand-md sticky-top">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Work With Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#">Privacy Policy</a></li>
-            <li class="nav-itm"><a class="nav-link" href="#">Terms & Conditions</a></li>
-            </ul>
-            <a class="navbar-text nav-link" href="https://apps.apple.com/us/app/stymied-golf/id1576273740">Play Golf</a>
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stymiedNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="stymiedNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg fa-fw"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="work.html"><i class="fa fa-money fa-lg fa-fw" aria-hidden="true"></i> Work With Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="support.html"><i class="fa fa-question-circle fa-lg fa-fw" aria-hidden="true"></i> Support</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="privacypolicy.html"><i class="fa fa-user-secret fa-lg fa-fw" aria-hidden="true"></i> Privacy Policy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="terms.html"><i class="fa fa-gavel fa-lg fa-fw" aria-hidden="true"></i> Terms & Conditions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://apps.apple.com/us/app/stymied-golf/id1576273740"><i class="fa fa-flag-o fa-lg fa-fw" aria-hidden="true"></i> Play Golf</a></li>
+                    </ul>
+                </div> 
+            </div>
         </nav>
 
     <div class="container">
@@ -471,7 +487,7 @@
                     <h2>Exercising Your CCPA Data Protection Rights</h2>
                     <p>In order to exercise any of Your rights under the CCPA, and if You are a California resident, You can contact Us:</p>
                     <ul>
-                        <li>By visiting this page on our website: <a href="www.stymied.golf" rel="external nofollow noopener" target="_blank">www.stymied.golf</a></li>
+                        <li>By visiting this page on our website: www.stymied.golf</li>
                     </ul>
                     <p>Only You, or a person registered with the California Secretary of State that You authorize to act on Your behalf, may make a verifiable request related to Your personal information.</p>
                     <p>Your request to Us must:</p>
@@ -533,3 +549,34 @@
             </div>
         </div>
     </div>
+
+<!--Footer-->
+<footer class="site-footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-cm-2 offset-1">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="work.html">Work With Us</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-5">
+                <h5>Social</h5>
+                <a class="btn" href="https://www.instagram.com/stymied.golf/"><i class="fa fa-instagram fa-lg fa-fw" aria-hidden="true"></i></a>
+                <a class="btn" href="https://www.facebook.com/stymied.golf"><i class="fa fa-facebook-official fa-lg fa-fw" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
