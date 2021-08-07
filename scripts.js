@@ -1,0 +1,3 @@
+function myFunction() {
+    document.getElementById("learnMore").innerHTML = "Stymied Golf is a community golf app, aimed at bringing golfers together within their own communities. Whether you're wanting to play a quick 9 holes at your local muni, or travelling for work and needing some recommendations from some locals, Stymied Golf was created to connect golfers with other golfers. We firmly believe that golf is a game to be enjoyed by everyone, no matter their background. Our goal is to grow the game and make golf more accessible for all.";
+}
