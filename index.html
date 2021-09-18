@@ -7,17 +7,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- build:css css/main.css -->
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Additional CSS-->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <!-- endbuild -->
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,800&display=swap" rel="stylesheet">
 
+    <script src="https://use.fontawesome.com/bdcd0a7421.js"></script>
     
     </head>
     
@@ -72,9 +75,13 @@
             <div class="card" id="introCard" style="width: 18rem;">
                 <div class="card-body">
                     <h5 class="card-title">Why Stymied Golf</h5>
-                    <button class="d-flex mx-auto btn-dark mt-3 rounded-lg" onclick="myFunction()">Keep Reading</button>
+                    <button class="d-flex mx-auto btn-dark mt-3" onclick="myFunction()">Learn More!</button>
                     <p class="card-text text-center mt-3" id="learnMore"></p>
-                    <script src="scripts.js"></script>
+                    <script>
+                        function myFunction() {
+                            document.getElementById("learnMore").innerHTML = "Stymied Golf is a community golf app, aimed at bringing golfers together within their own communities. Whether you're wanting to play a quick 9 holes at your local muni, or travelling for work and needing some recommendations from some locals, Stymied Golf was created to connect golfers with other golfers. We firmly believe that golf is a game to be enjoyed by everyone, no matter their background. Our goal is to grow the game and make golf more accessible for all.";
+                        }
+                    </script>
                 </div>
             </div>
         </div>
@@ -129,7 +136,7 @@
                         <div class="card-body flex-fill">
                             <i class="fa fa-plane fa-lg" aria-hidden="true"></i>
                             <h5 class="card-title">Travel For Work?</h5>
-                            <p class="card-text">When you land in a new city, jump on Stymied Golf to get some course suggestions from the locals. Or, better yet, set up a game with someone who can show you around. Maybe you’ll even get a few members bounces! </p>
+                            <p class="card-text">When you land in a new city, jump on Stymied Golf to get some course suggestions from the locals. Or better yet, set up a game with someone who can show you around. Maybe you’ll even get a few members bounces! </p>
                         </div>
                     </div>
                 </div>
@@ -215,11 +222,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- build:js js/main.js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/bdcd0a7421.js"></script>
-    <!-- endbuild -->
     </body>
 </html>
